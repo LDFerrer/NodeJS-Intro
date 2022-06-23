@@ -1,0 +1,100 @@
+html
+  include includes/head.pug
+  body
+    include includes/header.pug
+    .container
+      h1.bd-title!= message
+
+    .container
+      .row
+        .col-md-4
+          h5 Introducción a Node.js
+          ol
+            li ¿Qué es Node.js?
+            li ¿Y NPM?
+            li ¿Qué podemos hacer con Node.js?
+            li Características de Node.js
+            li  Instalación
+            li Comunidad y ecosistema
+            li Hola Mundo!
+        .col-md-4
+          h5 Ecmascript
+          ol
+            li Nuevas features
+            li Babel
+        .col-md-4
+          h5 Node.js
+          ol
+            li Manejo de eventos
+            li Programación asíncrona
+            li Modularización
+            li Introducción a Sockets
+            li Manejo de errores
+            li Nodemon
+
+        .col-md-4
+          h5 Nuestro primer servidor web
+          ol
+            li Módulo HTTP
+            li Un servidor básico
+            li El objeto response
+            li Encabezados
+            li Nuestra home!
+            li Vitaminémos nuestra home!
+
+        .col-md-4
+          h5 Conexión a base de datos
+          ol
+            li MongoDB
+            li PostgresSQL
+
+        .col-md-4
+          h5 Express
+          ol
+            li ¿Qué es Express?
+            li Un poco de historia, y comunidad
+            li Middlewares
+
+        .col-md-4
+          h5 Renderizado desde el servidor
+          ol
+            li Nuestro primer servidor
+            li Configuremos nuestro servidor
+            li Trabajando con templates
+            li Routing
+            li Layouts
+            li Ficheros estáticos
+            li Rutas parametrizables
+            li Manejo de errores en express
+            li Modularización
+            li Testing de nuestra web
+
+        .col-md-4
+          h5 Nuestra primera Rest
+          ol
+            li ¿Qué es REST?
+            li Nuestro primer servidor
+            li Configuremos nuestra API
+            li Configurando el entorno (dev o prod)
+            li Routing
+            li Modularización
+            li Securizando nuestra API
+            li Testeando nuestra API Rest!
+
+        .col-md-4
+          h5 Sockets!
+          ol
+            li ¿Qué es, y para qué sirven los sockets?
+            li Implementación básica
+
+        .col-md-4
+          h5 Producción
+          ol
+            li Despleguemos nuestra web/API!
+
+        .col-md-4
+          h5 Bonus!
+          ol
+            li Dockerizando nuestro servidor!
+
+    include includes/footer.pug
